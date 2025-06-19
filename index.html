@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Battle 2.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <img src="assets/loader.gif" alt="Loading..." />
+  </div>
+
+  <!-- Theme Toggle Button -->
+  <button id="themeToggle">🌙</button>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+<section id="hero" class="hero-section">
+  <!-- Blobs in background -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <div class="hero-content">
+    <h1>Crafting the Web, Pixel by Pixel</h1>
+    <p id="typed-text">|</p>
+    <a href="#features" class="ripple-btn bounce">Explore Features</a>
+  </div>
+</section>
+<!-- Cards Section -->
+<section id="cards" class="cards-section">
+    <!-- Blobs in background -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <h2 class="section-title">Our Core Features</h2>
+  <div class="card-grid">
+    <div class="card">
+      <span class="icon">⚡</span>
+      <h3>Fast Performance</h3>
+      <p>Lightning-fast load time and smooth transitions across all devices.</p>
+    </div>
+    <div class="card">
+      <span class="icon">🎨</span>
+      <h3>Modern UI</h3>
+      <p>Elegant and clean interfaces built with love for every screen size.</p>
+    </div>
+    <div class="card">
+      <span class="icon">🔒</span>
+      <h3>Secure by Default</h3>
+      <p>All best practices in accessibility and privacy are followed carefully.</p>
+    </div>
+    <div class="card">
+      <span class="icon">🚀</span>
+      <h3>Deploy-Ready</h3>
+      </div>
+</section>
+
+      <!-- Features Section -->
+<section id="features" class="features-section">
+    <!-- Blobs in background -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <h2 class="section-title">Why Choose Us</h2>
+  <div class="features-blob"></div>
+  <div class="features-grid">
+    <div class="feature-box reveal">
+      <span class="icon">📱</span>
+      <div class="feature-content ">
+        <h3>Mobile Optimized</h3>
+        <p>Every pixel scales perfectly across all devices — smartphones, tablets, desktops.</p>
+      </div>
+    </div>
+    <div class="feature-box reveal">
+      <span class="icon">⚙️</span>
+      <div class="feature-content">
+        <h3>Modular Code</h3>
+        <p>Maintainable, scalable components that are a joy to extend and reuse.</p>
+      </div>
+    </div>
+    <div class="feature-box reveal">
+      <span class="icon">💡</span>
+      <div class="feature-content">
+        <h3>Innovative Animations</h3>
+        <p>Subtle effects that enhance UX without being overbearing or distracting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="stats" class="stats-section reveal">
+     <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <h2 class="section-title">Our Growth in Numbers</h2>
+
+  <div class="stats-container">
+    <div class="stat-box">
+      <h3><span class="counter" data-target="10000">1000</span>+</h3>
+      <p>Active Users</p>
+    </div>
+    <div class="stat-box">
+      <h3><span class="counter" data-target="25000">15000</span>+</h3>
+      <p>Downloads</p>
+    </div>
+    <div class="stat-box">
+      <h3><span class="counter" data-target="98">70</span>%</h3>
+      <p>Satisfaction</p>
+    </div>
+  </div>
+
+  <div class="graph-container">
+    <div id="statsChart">
+        <div class="work-grid">
+             <div class="work-card reveal">
+      <img src="assets/graph.png" alt="Project 3" />
+      <div class="overlay">
+    </div>
+<br>
+<br>
+    <div class="work-card reveal">
+      <img src="assets\stats.png" alt="Project 3" />
+      <div class="overlay">
+    </div>
+        </div>
+   
+
+  </div>
+</section>
+
+ <section id="testimonials" class="testimonials-section">
+    <!-- Blobs in background -->
+  <div class="blob blob3"></div>
+  <div class="blob blob4"></div>
+  <h2 class="section-title">What People Say</h2>
+  <div class="carousel-container">
+    <button class="ripple-btn" id="prevBtn">⟨</button>
+
+    <div class="carousel-track" id="carouselTrack">
+      <!-- Testimonial Slide 1 -->
+      <div class="testimonial-card">
+        <p class="quote">"An amazing frontend experience. Smooth, responsive, and elegant!"</p>
+        <div class="author">
+          <img src="assets/user1.jpeg" alt="User 1" />
+          <div>
+            <h4>Sneha Sharma</h4>
+            <small>UI/UX Designer</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="testimonial-card">
+        <p class="quote">"Absolutely loved the creativity and attention to detail!"</p>
+        <div class="author">
+          <img src="assets/user3.jpeg" alt="User 2" />
+          <div>
+            <h4>Rahul Verma</h4>
+            <small>Frontend Engineer</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="testimonial-card">
+        <p class="quote">"This is what frontend magic looks like!"</p>
+        <div class="author">
+          <img src="assets/user2.jpeg" alt="User 3" />
+          <div>
+            <h4>Megha Singh</h4>
+            <small>Product Manager</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="ripple-btn" id="nextBtn">⟩</button>
+  </div>
+</section>
+
+<section id="showcase" class="showcase-section">
+  <h2 class="section-title reveal">Our Work</h2>
+  <div class="work-grid">
+    <div class="work-card reveal">
+        <video autoplay muted loop playsinline width="100%" height="100%" style="border-radius: 40%;">
+      <source src="assets\showcase work.mp4" type="video/mp4" />
+        </video>
+      Your browser does not support the video tag.
+      <!-- <img src="assets/work1.jpeg" alt="Project 1" /> -->
+      <div class="overlay">
+        <h3>Landing Page UI</h3>
+        <p>Built with HTML, CSS, JS — fully responsive</p>
+      </div>
+    </div>
+    <div class="work-card reveal">
+      <img src="assets/work2.jpeg" alt="Project 2" />
+      <div class="overlay">
+        <h3>Portfolio Design</h3>
+        <p>Modern personal site with dark/light mode</p>
+      </div>
+    </div>
+    <div class="work-card reveal">
+      <img src="assets/work3.jpeg" alt="Project 3" />
+      <div class="overlay">
+        <h3>Product Showcase</h3>
+        <p>Scroll reveal, animated counters, graph UI</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- demo -->
+<section id="testimonials" class="testimonials-section">
+    <!-- Blobs in background -->
+    
+  <div class="blob blob2"></div>
+  <h2 class="section-title">See Demo</h2>
+  <div class="carousel-container">
+      <div class="testimonial-card">
+        <p class="quote">"Have A look!"</p>
+        <div class="author">
+             <video autoplay muted loop playsinline width="100%" height="100%" style="border-radius: 0%;">
+      <source src="assets/testimonials.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+        </div>
+      </div>
+      </section>
+
+
+<section class="parallax-section">
+    <!-- Blobs in background -->
+     <div class="blob blob4"></div>
+  <div class="parallax-bg"></div>
+   <video autoplay muted loop playsinline width="100%" height="100%" style="border-radius: 0%;">
+      <source src="assets/parallax animation.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  <div class="parallax-content">
+    <h2>Scroll Feels Amazing</h2>
+    <p>Watch the background move slower than the text. That's parallax.</p>
+  </div>
+</section>
+<section class="customer-section reveal" id="customers">
+    <div class="blob blob3"></div>
+
+  <h2 class="section-title">Trusted By Teams Worldwide</h2>
+  <div class="logo-grid">
+    <video autoplay muted loop playsinline width="100%" height="100%" style="border-radius: 0%;">
+      <source src="assets\customer-section.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <!-- <img src="assets/logo1.png" alt="Client 1" />
+    <img src="assets/logo2.png" alt="Client 2" />
+    <img src="assets/logo3.png" alt="Client 3" />
+    <img src="assets/logo4.png" alt="Client 4" />
+    <img src="assets/logo5.png" alt="Client 5" />
+    <img src="assets/logo6.png" alt="Client 6" /> -->
+  </div>
+</section>
+
+<section id="cta" class="cta-section reveal">
+    <!-- Blobs in background -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <h2>Ready to Elevate Your Frontend?</h2>
+  <p>Let’s build something great together — fast, elegant, and responsive.</p>
+  <a href="#contact" class="ripple-btn">Start Your Project</a>
+</section>
+<!-- More sections like #features, #video etc. will go here -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>Made with ❤️ at Frontend Battle 2.0</p>
+    <div class="socials">
+      <a href="https://github.com/anushkanandan57" target="_blank">GitHub</a>
+      <a href="mailto:anushkanandan57.com">Email</a>
+      <a href="#">Back to Top</a>
+    </div>
+  </div>
+</footer>
+
+  
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js">
+const ctx = document.getElementById('statsChart').getContext('2d');
+
+const statsChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    datasets: [{
+      label: 'Monthly Users',
+      data: [500, 2000, 4500, 6000, 8000, 10000],
+      borderColor: '#f107a3',
+      backgroundColor: 'rgba(241, 7, 163, 0.1)',
+      fill: true,
+      tension: 0.4,
+      borderWidth: 2,
+      pointBackgroundColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      x: {
+        ticks: { color: '#ccc' },
+        grid: { color: 'rgba(255,255,255,0.05)' }
+      },
+      y: {
+        ticks: { color: '#ccc' },
+        grid: { color: 'rgba(255,255,255,0.05)' }
+      }
+    },
+    plugins: {
+      legend: {
+        labels: { color: '#fff' }
+      }
+    }
+  }
+});
+const counters = document.querySelectorAll('.counter');
+
+const runCounters = () => {
+  counters.forEach(counter => {
+    const update = () => {
+      const target = +counter.getAttribute('data-target');
+      const current = +counter.innerText;
+      const increment = Math.ceil(target / 100);
+
+      if (current < target) {
+        counter.innerText = current + increment;
+        setTimeout(update, 20);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    update();
+  });
+};
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      runCounters();
+      observer.disconnect();
+    }
+  });
+}, { threshold: 0.5 });
+
+observer.observe(document.getElementById('stats'));
+</script>
+</body>
+</html>
