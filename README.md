@@ -28,7 +28,6 @@ Welcome to my interactive website! This project showcases my work, skills, and c
 | **Intersection Observer** *(planned)* | For optimized scroll animations |
 | **GSAP / Anime.js** *(optional)* | For advanced animations (can be added later) |
 
----
 
 ## 📁 Project Structure
 
@@ -41,36 +40,42 @@ Welcome to my interactive website! This project showcases my work, skills, and c
 │   ├── images/
 │   └── icons/
 └── README.md
----
+```
 
-##🧪 Live Demo
-🔗 Visit the Live Website
-💡 frontendbattleiitbhub.netlify.app
+## 🧪 Live Demo
 
-🧰 Setup Instructions
-Clone the repo
-git clone https://github.com/yourusername/portfolio-site.git
+- 🔗 Visit the Live Website
+- 💡 [link](https://frontendbattleiitbhub.netlify.app/)
+
+## 🧰 Setup Instructions
+
+- Clone the repo
+```plaintext
+git clone https://github.com/anushkanandan57/portfolio-site.git
 cd portfolio-site
-Open in browser
+```
+- Open in browser
 
-Simply open index.html in your browser
+- Simply open index.html in your browser
 
 Or serve locally using:
+```plaintext
 npx serve
+```
 
-🧼 To-Do / Improvements
- Add contact form integration (e.g. EmailJS or Netlify Forms)
+## 🧼 To-Do / Improvements
+- Add contact form integration (e.g. EmailJS or Netlify Forms)
 
- Optimize scroll effects with IntersectionObserver
+- Optimize scroll effects with IntersectionObserver
 
- Improve accessibility (ARIA roles, keyboard nav)
+- Improve accessibility (ARIA roles, keyboard nav)
 
- Add blog or CMS integration (optional)
+- Add blog or CMS integration (optional)
 
- Lighthouse performance pass
+- Lighthouse performance pass
 
-👨‍💻 Contributing
-Pull requests and suggestions are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+## 👨‍💻 Contributing
+- Pull requests and suggestions are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 Fork the project
 
@@ -80,14 +85,17 @@ Commit your changes (git commit -m 'Add awesome feature')
 
 Push to the branch (git push origin feature/awesome-feature)
 
-Open a Pull Request
+- Open a Pull Request
 
-📄 License
+## 📄 License
 MIT License. Feel free to use and customize it for your own personal site.
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Anushka Nandan
 📧 anushkanandan@gmail.com
-🔗 LinkedIn | GitHub
+🔗 LinkedIn | [GitHub](https://github.com/anushkanandan57/)
 
 Crafted with ❤️ using HTML, CSS, and JavaScript
+
+---
+
